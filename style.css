@@ -1,0 +1,851 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+                        /* Top bar start */
+
+.top-bar-bg{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5fbff;
+    font-size: 13px;
+}
+
+.top-bar-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-call{
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .fa-brands{
+    margin-right: 10px;
+    color: black;
+    opacity: 0.3;
+}
+
+.email-call div a{
+    text-decoration: none;
+}
+
+.email-call div a .fa-solid{
+    color: #5db2ff;
+}
+
+.email-call div a span{
+    opacity: 0.5;
+    color: black;
+}
+
+.social .fa-brands:hover{
+    color: #5db2ff;
+    opacity: 1;
+}
+
+                        /* Top bar end */
+
+                        /* Nev bar start */
+
+.nav-bar-bg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-container{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.nav-bar-options{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar-options li{
+    margin-right: 25px;
+}
+
+.nav-bar-options li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    opacity: 0.7;
+
+}
+
+.nav-bar-options li a:hover{
+    opacity: 1;
+}
+
+.blog-child-list, .pages-child-list{
+    display: none;   /* Do it Later - 1 */
+}
+
+.appo-btn button{
+    padding: 10px 20px;
+    border: 1px solid #009DFF;
+    border-radius: 3px;
+    color: white;
+    background-color: #009DFF;
+    transition: all 0.2s linear;
+}
+
+.appo-btn button:hover{
+    color: #009DFF;
+    background-color: white;
+    border: 1px solid #009DFF;
+}
+
+                        /* Nev bar end */
+
+                        /* Banner section start */
+
+.banner-bg{
+    width: 300%;
+    /* Banner Animation */
+animation: ban-ani 15s linear infinite;
+
+}
+
+.banner-container{
+    width: 33.3333%;
+    height: 700px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bann-1{
+    background-image: url('Img/banner/banner.png.webp');
+    background-repeat: no-repeat;
+    
+}
+
+.bann-2{
+    background-image: url('Img/banner/banner2.png.webp');
+    background-repeat: no-repeat;
+    
+}
+
+.bann-title-dec-btn{
+    width: 60%;
+}
+
+.bann-heading{
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+
+.bann-sub-heading{
+    font-size: 3vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.bann-dec{
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+.bann-btn{
+    padding: 12px 22px;
+    border: 1px solid #009DFF;
+    border-radius: 3px;
+    color: white;
+    background-color: #009DFF;
+    transition: all 0.2s linear;
+}
+
+.bann-btn:hover{
+    color: #009DFF;
+    background-color: white;
+}
+
+        /* ban-ani Animation */
+
+@keyframes ban-ani{
+    0%{
+        position: absolute;
+        left: 0;
+    }
+
+    35%{
+        position: absolute;
+        left: 0;
+    }
+
+    40%{
+        position: absolute;
+        left: -100%;
+    }
+
+    80%{
+        position: absolute;
+        left: -100%;
+    }
+
+    85%{
+        position: absolute;
+        left: -200%;
+    }
+
+    95%{
+        position: absolute;
+        left: -200%;
+    }
+}
+
+                        /* Banner section end */
+
+                        /* Contact section start */
+
+.contact-bg{
+    width: 100%;
+    margin-top: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #83c4ff;
+    color: white;
+}
+
+.contace-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-bed-pulse, .phn-ico, .fa-briefcase-medical{
+    font-size: 2.3rem;
+}
+
+.cont-info{
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cont-info h3{
+    margin-bottom: 0;
+}
+
+.cont-info p{
+    margin: 12px 0 20px 0;
+    line-height: 23px;
+}
+
+.cont-btn{
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #83c4ff;
+    transition: all 0.3s linear;
+}
+
+.cont-box-2 .cont-btn{
+    background-color: #5db2ff;
+}
+
+.cont-box-2{
+    background-color: #5db2ff;
+}
+
+.cont-btn:hover{
+    color: #83c4ff;
+    background-color: white;
+}
+
+.cont-box-2 .cont-btn:hover{
+    color: #5db2ff;
+    background-color: white;
+}
+
+                        /* Contact section end */
+
+                        /* Welcome section start */
+
+.welcome-bg{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+
+}
+
+.welcome-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.img-box{
+    height: 532px;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.img-box img:last-child{
+    transform: translate(60%, -80%);
+}
+
+.text-box{
+    margin-left: 33%;
+}
+
+.text-box h4{
+    margin: 0;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.rule-1{
+    position: absolute;
+    width: 40px;
+    border-color: #5db2ff;
+}
+
+.text-box h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.text-box p:nth-child(4){
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 23px;
+}
+
+.fa-circle-check{
+    font-size: 15px;
+    color: #5db2ff;
+    margin-right: 5px;
+}
+
+.text-box p:nth-child(5){
+    margin-top: 40px;
+}
+
+.text-box p:nth-child(7){
+    margin-bottom: 40px;
+}
+
+.wel-btn{
+    padding: 8px 20px;
+    border: 1px solid #5db2ff;
+    border-radius: 3px;
+    color: #5db2ff;
+    background-color: white;
+    transition: all 0.2s linear;
+}
+
+.wel-btn:hover{
+    color: white;
+    background-color: #5db2ff;
+}
+
+                        /* Welcome section end */
+
+                        /* Department section start */
+
+.depar-bg{
+    width: 100%;
+    background-color: #f5fbff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 50px 0;
+}
+
+.depar-text{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.depar-text h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.depar-text .rule-2{
+    width: 50px;
+    border-color: #5db2ff;
+}
+
+.depar-text p{
+    opacity: 0.6;
+    line-height: 22px;
+}
+
+.depar-card-bg{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.depar-card{
+    width: 31.80%;
+    height: 420px;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.depar-card .depar-img-bg{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.depar-card img{
+    width: 100%;
+    transition: all 0.2s linear 0.1s;
+}
+
+.depar-card h4, .depar-card p, .depar-card a{
+    margin-left: 28px;
+}
+
+.depar-card h4{
+    font-size: 20px;
+    margin: 22px 0 0 28px;
+}
+
+.depar-card p{
+    font-size: 1.02rem;
+    margin: 10px 28px 15px 28px;
+}
+
+.depar-card a{
+    text-decoration: none;
+    color: #5db2ff;
+}
+
+.depar-card:hover img{
+    transform: scale(1.10);
+}
+
+.depar-card h4:hover{
+    color: #5db2ff;
+}
+
+.depar-card a:hover{
+    text-decoration: underline;
+}
+
+
+                        /* Department section end */
+
+                        /* Happy patient section start */
+
+.happy-pat-bg{
+    width: 100%;
+    position: relative;
+
+}
+
+.happy-pat-box{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
+}
+
+.happy-pat-box p{
+    margin-bottom: 35px;
+}
+
+.happy-pat-box h5{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.rule-3{
+    width: 3%;
+    border-width: 2px;
+}
+
+.fa-quote-right{
+    font-size: 40px;
+}
+
+.pat-box-1{
+    background-image: url('Img/testmonial/2.png.webp');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken;
+}
+
+.pat-box-2{
+    background-image: url('Img/testmonial/1.png.webp');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken;
+}
+
+.pat-box-2{
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.fa-square-caret-left, .fa-square-caret-right{
+    font-size: 50px;
+    color: white;
+}
+
+#happ-pat{
+    display: none;
+}
+
+.happ-gterthan-icon-left{
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 350px;
+}
+
+.happ-gterthan-icon-right{
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    right: 350px;
+}
+
+#happ-pat:checked~.pat-box-2{
+    opacity: 0;
+}
+
+
+                        /* Happy patient section end */
+
+                        /* Review tab section start */
+
+.rv-tab-bg{
+    width: 100%;
+    background-color: #f5fbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rv-tab-container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rv-tab{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-1{
+    background-color: white;
+}
+
+.rv-tab-container a:link{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.tab-2:hover, .tab-3:hover{
+    background-color: white;
+}
+
+                        /* Review tab section end */
+
+                        /* Review box section start */
+
+.rv-box-bg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.rv-box-container{
+    width: 60%;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-kit-medical{
+    font-size: 35px;
+    color: #5db2ff;
+    margin-bottom: 0;
+}
+
+.rv-box-text h4{
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+
+.rv-box-text p{
+    opacity: 0.6;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+.rv-box-image img{
+    width: 500px;
+}
+
+.rule-last{
+    width: 60%;
+    opacity: 0.4;
+}
+
+                        /* Review box section end */
+
+                        /* Doctors bio section start */
+
+.doc-bio-bg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.doc-bio-title{
+    width: 60%;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.doc-bio-box-bg{
+    width: 60%;
+}
+
+.doc-bio-container-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.doc-bio-box{
+    background-color: #f5fbff;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.doc-bio-box h3{
+    margin-bottom: 8px;
+}
+
+.doc-bio-box p{
+    margin-top: 0;
+    opacity: 0.6;
+}
+
+.img-doc{
+    width: 264px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.img-doc img{
+    transition: all 0.2s linear;
+}
+
+.doc-bio-box:hover .img-doc img{
+    transform: scale(1.03);
+}
+
+.doc-bio-box:hover{
+    color: white;
+    background-color: #5db2ff;
+}
+
+                        /* Doctors bio section end */
+
+                        /* Contact doctor section start */
+
+.cont-doc-bg{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.cont-doc{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 173, 245);
+    background-blend-mode:soft-light;
+}
+
+.cont-doc h2{
+    margin-bottom: 10px;
+}
+
+.cont-doc p{
+    margin-top: 0;
+}
+
+.cont-doc-btn-bg a{
+    margin-left: 30px;
+}
+
+.cont-doc-btn{
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+.cont-doc-btn:hover{
+    color: rgb(45, 148, 238);
+    background-color: white;
+}
+
+.cont-doc-box-1{
+    background-image: url('Img/banner/emergency-1.png.webp');
+}
+
+.cont-doc-box-2{
+    background-image: url('Img/banner/emergency-2.png.webp');
+}
+
+                        /* Contact doctor section end */
+
+                        /* Footer section start */
+
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.footer-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box a{
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-box a:hover{
+    color: #009DFF;
+}
+
+.footer-box h3{
+    margin-bottom: 35px;
+}
+
+.about-site p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-site a{
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 4px;
+}
+
+.about-site i{
+    padding: 10px 12px;
+    background-color: rgb(112, 112, 112);
+    border-radius: 3px;
+}
+
+.about-site i:hover{
+    color: white;
+}
+
+.about-site p{
+    margin: 35px 0;
+}
+
+.address span{
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address address{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+                        /* Footer section end */
+
+                        /* Copyright section start */
+
+.coptright-bg{
+    width: 100%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coptright-bg p a{
+    text-decoration: none;
+    color: #009DFF;
+}
+
+                        /* Copyright section end */
