@@ -66,6 +66,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .nav-bar-container{
@@ -99,7 +104,48 @@ body{
 }
 
 .blog-child-list, .pages-child-list{
-    display: none;   /* Do it Later - 1 */
+    visibility: hidden;
+    opacity: 0;
+}
+
+.blog-child-list{
+    padding: 40px 18px 18px;
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    top: 52px;
+    left: 910px;
+    transition: all 0.4s linear;
+}
+
+.nav-bar-options li:nth-child(3):hover .blog-child-list{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.pages-child-list{
+    padding: 40px 18px 18px;
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: white;
+    list-style-type: none;
+    position: absolute;
+    top: 52px;
+    left: 968px;
+    transition: all 0.4s linear;
+}
+
+.nav-bar-options li:nth-child(4):hover .pages-child-list{
+    visibility: visible;
+    opacity: 1;
+    
 }
 
 .appo-btn button{
