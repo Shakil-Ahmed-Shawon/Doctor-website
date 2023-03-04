@@ -895,3 +895,118 @@ footer{
 }
 
                         /* Copyright section end */
+                                 /* |
+                                    |
+                                    |
+                                    | */
+                        /* Make Responsive start */
+
+    /* Laptop Responsive Start*/
+
+@media (min-width: 1220px) and (max-width: 1280px){
+
+    /* Top bar */
+
+    .top-bar-container{
+        width: 85%;
+    }
+
+    /* Nev bar */
+
+    .nav-bar-container{
+        width: 85%;
+    }
+
+    .blog-child-list{
+       left: 586px;
+    }
+
+    .pages-child-list{
+        left: 647px;
+    }
+
+    /* Banner section */
+
+    .bann-title-dec-btn{
+        width: 85%;
+        margin-top: 10%;
+    }
+
+    .banner-container{
+       align-items: flex-start;
+    }
+
+    /* Contact section */
+    
+    .contace-container{
+        width: 100%;
+    }
+
+    /* Welcome section */
+
+    .welcome-container{
+        width: 85%;
+    }
+
+    /* Department section */
+
+    .depar-text{
+        width: 85%;
+    }
+
+    .depar-card-bg{
+        width: 85%;
+    }
+
+    /* Happy patient section */
+
+    .happ-gterthan-icon-left{
+        left: 150px;
+    }
+
+    .happ-gterthan-icon-right{
+       right: 150px;
+    }
+
+    /* Review tab section */
+
+    .rv-tab-container{
+        width: 85%;
+    }
+
+    /* Review box section */
+
+    .rv-box-container{
+        width: 85%;
+    }
+
+    .rule-last{
+        width: 85%;
+    }
+
+    /* Doctors bio section */
+
+    .doc-bio-title{
+        width: 85%;
+    }
+
+    .doc-bio-box-bg{
+        width: 85%;
+    }
+
+    /* Footer section */
+
+    .footer-container{
+        width: 85%;
+    }
+
+
+    /* Laptop Responsive End*/
+
+
+    /* Tablet Responsive Start */
+
+
+    
+}
+                        /* Make Responsive end */
