@@ -1003,6 +1003,155 @@ footer{
 
     /* Laptop Responsive End*/
 
+    /* Tab Responsive Start*/
+
+@media (min-width: 1000px) and (max-width: 1080px){
+
+}
+
+    /* Tab Responsive End*/
+
+    /* Top bar */
+
+    .top-bar-container{
+        width: 93%;
+    }
+
+    .email-call{
+        width: 25%;
+    }
+
+    /* Nev bar */
+
+    .nav-bar-container{
+        width: 93%;
+    }
+
+    .blog-child-list{
+       left: 460px;
+    }
+
+    .pages-child-list{
+        left: 518px;
+    }
+
+    /* Banner section */
+
+    .bann-title-dec-btn{
+        width: 93%;
+        margin-top: 13%;
+    }
+
+    .banner-container{
+       align-items: flex-start;
+    }
+
+    /* Contact section */
+    
+    .contace-container{
+        width: 100%;
+    }
+
+    /* Welcome section */
+
+    .welcome-container{
+        width: 93%;
+    }
+
+    .welcome-bg{
+        height: 540px;
+    }
+
+    /* Department section */
+
+    .depar-text{
+        width: 93%;
+    }
+
+    .depar-card-bg{
+        width: 93%;
+    }
+
+    .depar-card{
+        height: 360px;
+    }
+
+    .depar-card .depar-img-bg{
+        height: 200px;
+        overflow: hidden;
+    }
+
+    /* Happy patient section */
+
+    .happ-gterthan-icon-left{
+        left: 100px;
+    }
+
+    .happ-gterthan-icon-right{
+       right: 100px;
+    }
+
+    /* Review tab section */
+
+    .rv-tab-container{
+        width: 93%;
+    }
+
+    /* Review box section */
+
+    .rv-box-container{
+        width: 93%;
+    }
+
+    .rule-last{
+        width: 93%;
+    }
+
+    /* Doctors bio section */
+
+    .doc-bio-title{
+        width: 93%;
+    }
+
+    .doc-bio-box-bg{
+        width: 93%;
+    }
+
+    .doc-bio-box{
+        width: 215px;
+    }
+
+    .doc-bio-box div{
+        width: 215px;
+        height: 203.59px;
+    }
+
+    .doc-bio-box div img{
+        width: 215px;
+    }
+
+    /* Contact doctor section */
+
+    .cont-doc-bg{
+        width: 100%;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        background: linear-gradient(to left, rgb(17, 76, 240), rgb(61, 112, 179));
+    }
+
+    .cont-doc{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    /* Footer section */
+
+    .footer-container{
+        width: 93%;
+    }
 
     /* Tablet Responsive Start */
   
